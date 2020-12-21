@@ -101,3 +101,18 @@ main {
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+
+/*---------------------RESPONSIVE DESKTOP---------------------*/
+@media (min-width: 700px) and (max-width: 1170px) {
+  .app {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1171px) {
+  .app {
+    width: 30%;
+    margin: auto;
+  }
+}
